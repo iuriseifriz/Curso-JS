@@ -1,0 +1,135 @@
+array / vetor é uma variavel que contém mais de 1 valor.
+ex:
+	var a = [5,7,9]
+
+-------
+
+ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+
+----------------
+
+operadores
+
+	operadores aritiméticos servem pra fazer contas em programação, usando variaveis. Eles são +, -, * e /, ** e %.
+ Lembrando que além de % é o resto da divisão e ** é potenciação
+ex:
+	var n = 3
+	n == 3
+
+	n = n+3
+	n == 6
+
+	ou
+	
+	n+=3
+	n == 6
+----
+	operadores relacionais são >, <, >=, <=, == e !=. 
+ Lembrando que = sozinho é atribuição, ou "recebe", e == é "igual". A diferença é que = é usado pra fazzer variaveis, e == é usado pra calculos. 
+ E que "!" significa "não". Ou seja:
+
+ 4==4  
+true
+
+ 4!=4
+false
+
+7>4
+true
+
+2<1
+false
+
+em operações relacionais o resultado é sempre boolean, ou seja, true ou false.
+
+exemplos mais práticos:
+
+n1==n2
+
+idade > 18
+
+curso == 'javascript'
+
+Lembrando, o == não diferencia o tipo em operações, ou seja
+
+5 == '5'
+true
+
+pra isso existe o ===
+
+5 === '5'
+false
+
+5 === 5
+true
+
+ou seja, "=" é "recebe", "==" é "igual", e "===" é "idêntico".
+
+--------
+
+	operadores lógicos
+|| = ou
+ ! = não 
+&& = e
+ 
+batata = 5
+feijão = 1
+arroz = 2
+listaDeCompra = batata&&feijão&&arroz
+
+ou
+
+poema = ser || !ser +eis a questão
+
+------
+
+ ordem dos operadores
+
+em contas a ordem dos fatores sempre é: aritiméticos (+,-,*,/,**,%), relacionais (>,<,>=,<=,==, !=) e lógicos (!, ||, &&)
+
+----
+
+operadores ternários
+
+são eles ? e :, delimitam causa ou consequencia. Por exemplo:
+
+média >= 7.0 ? "Aprovado" : "Reprovado"
+
+ou 
+
+? == se sim
+: == se não
+
+------------------condições--------------
+
+condições simples 
+
+ if(condição){
+	comando}
+
+ else if(condição 2){
+}
+ else{
+	comando}
+------
+condições multiplas
+
+ switch(expressão){
+ case valor 1
+	comando
+	break
+
+ case valor 2
+	comando
+	break
+
+ case valor 3
+	comando
+	break
+
+ default
+	comando
+	break
+}
+
+**//não esquecer do break!!//**
